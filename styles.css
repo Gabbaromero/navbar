@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "Joan", serif;
+  src: url(https://fonts.googleapis.com/css2?family=Hind&family=Inter&family=Joan&family=Merriweather+Sans&family=Nunito:wght@500&display=swap);
+}
+.logo {
+  width: 105px;
+  height: 105px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  top: 1px;
+  border-radius: 60px;
+}
+header {
+  background: linear-gradient(#eeaeca, #e2f8ff);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Joan", serif;
+  gap: 20px;
+  text-transform: uppercase;
+  src: url(https://fonts.googleapis.com/css2?family=Hind&family=Inter&family=Joan&family=Merriweather+Sans&family=Nunito:wght@500&display=swap);
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-enlace:hover {
+  background: rgb(204, 241, 229);
+  text-decoration: none;
+}
+.nav-enlace {
+  text-decoration: none;
+}
