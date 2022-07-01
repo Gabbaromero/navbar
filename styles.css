@@ -24,6 +24,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 .container {
   font-family: "Quicksand", sans-serif;
@@ -53,11 +56,6 @@ header {
   background-position: center;
   float: center;
 }
-body {
-  background-image: url("flat-lay-of-toys-with-food-bowl-and-fur-brush-for-dogs\ \(1\).png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .titulo1 {
   display: flex;
   position: relative;
@@ -72,6 +70,13 @@ body {
   display: flex;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
+}
+.giro {
+  background-image: url("flat-lay-of-toys-with-food-bowl-and-fur-brush-for-dogs\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 100px;
 }
 .boton {
   display: inline-block;
@@ -92,8 +97,6 @@ body {
   background-color: white;
   display: table-cell;
   padding: 35px;
-  position: relative;
-  top: 250px;
   text-align: center;
   line-height: 1cm;
   font-family: "Quicksand", sans-serif;
