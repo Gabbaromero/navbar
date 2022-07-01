@@ -56,6 +56,7 @@ header {
 body {
   background-image: url("flat-lay-of-toys-with-food-bowl-and-fur-brush-for-dogs\ \(1\).png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .titulo1 {
   display: flex;
