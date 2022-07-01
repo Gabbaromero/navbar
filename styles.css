@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -57,17 +58,14 @@ header {
   float: center;
 }
 .titulo1 {
-  display: flex;
-  position: relative;
-  left: 120px;
-  top: 100px;
+  padding-left: 8%;
+  padding-top: 100px;
   font-size: 33px;
   font-family: "Quicksand", sans-serif;
 }
 .frase {
-  margin: 60px;
-  padding: 60px;
-  display: flex;
+  margin: 40px 0;
+  padding-left: 8%;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
 }
