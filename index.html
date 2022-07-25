@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Inter&family=Joan&family=Merriweather+Sans&family=Nunito:wght@500&family=Patrick+Hand+SC&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Pet shop</title>
+    <link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     
      <header>
@@ -17,6 +19,9 @@
          <li><a href="#" class="nav-enlace"><b style="color: black;">Quienes somos</b></a></li>
          <li><a href="#" class="nav-enlace"><b style="color: black;">Productos</a></b></a></li>
          <li><a href="#" class="nav-enlace"><b style="color: black;">Contactanos</b></a></li>
+         <li> 
+          <a href="#cartlist"><i class="fa-solid fa-bars"></i></a>
+         </li>
         </div>
       </nav>
     </header>
@@ -40,9 +45,91 @@
           las mascotas son nuestra pasión. Trabajamos todos los días para mejorar su calidad de vida y ofrecemos  productos adecuados.</p>
           
         </div>
-        
-    </main>
-  </section>
+        </main>
+    </section>
+    <!--cards-->
+    <section class="cards_section" id="cards">
+        <div class="card__container">
+          <!--* Card 1 -->
+          <div class="card">
+        <img src="./casa-de-mascotas.png" alt="iconos" class="info-card"/>
+        <p> En nuestra web encontraras una gran variedad de productos de alta calidad</p>
+      </div>
+          <!--card 2-->
+      <div class="card">
+        <img src="./mano.png" alt="iconos"class="info-card"/>
+        <p> Te brindamos atencion personalizada para que tengas la mejor experiencia</p>
+      </div>
+      <div class="card">
+        <img src="./huella.png" alt="iconos" class="info-card"/>
+        <p>Contamos con excelentes profesionales para el cuidado de tus mascotas</p>
+          </div>
+        </div>
+    </section>
   </body>
+  <!--pie-->
+  <footer> 
+    <div class="main-content">
+      <div class="left box">
+        <h2>Ayuda</h2>
+        <div class="content">
+      <ul>
+      <li>
+        <a> <span> ¿Como comprar?</span></a>
+      </li>
+      <li> 
+        <a> <span>Envios y entregas</span></a>
+      </li>
+      <li> 
+        <a> <span> Cambios y devoluciones</span></a>
+      </li>
+      <li> 
+        <a> <span> Terminos y Condiciones </span></a>
+      </li>
+    </ul>
+    <div class="social">
+      <a target="_blank" href="#"><b style="color: black;"><span class="fab fa-facebook-f"></span></b></a>
+      <a target="_blank" href="#"><b style="color: black;"><span class="fab fa-instagram"></span></b></a>
+        </div>
+      </div>
+    </div>
+
+    <!--medios de pagos-->
+    <div class="pago">
+      <h2>Medios de pagos</h2>
+      <div class="content">
+        <div class="place1">
+        <a target="blank" href="#"><b style="color: black;"> <span class="fa-solid fa-credit-card"></span> </b></a>
+        <a target="blank" href="#"><b style="color: black;"><span class="fa-solid fa-money-bill-1-wave"></span></b></a>
+        <a target="blank" href="#"><b style="color: black;"><span class="fa-solid fa-building-columns"></span></b></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="center box">
+      <h2>Contactanos</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text"> Valparaiso 619, Valentin Alsina</span>
+        </div>
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">4205-5641</span>
+        </div>
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">petshop@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.4668364180247!2d-58.41404068505016!3d-34.66816546841741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccc818130bd51%3A0x71cf0228b7ae3e4a!2sValpara%C3%ADso%20619%2C%20B1824%20Valent%C3%ADn%20Alsina%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1658706477485!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+    <p class="derecho"> Desarrollado por Gabba Romero
+    <span class="far fa-copyright"></span><span> 2022.</p>
+  
+</div>
+  </footer>
   
 </html>

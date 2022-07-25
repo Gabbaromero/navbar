@@ -20,6 +20,7 @@
 }
 header {
   background: fixed;
+  background-color: #fdfd96;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -42,6 +43,10 @@ header {
   font-size: 15px;
   text-decoration: none;
   list-style: none;
+}
+.container i {
+  font-size: 2rem;
+  color: black;
 }
 .nav-enlace:hover {
   background: rgb(255, 255, 255);
@@ -85,24 +90,111 @@ header {
   text-decoration: none;
   border-radius: 5px;
   color: black;
-  background-color: rgb(255, 251, 0);
+  background-color: #fdfd96;
   font-family: "Joan", serif;
 }
 .boton:hover {
   background: rgb(255, 255, 255);
 }
 .container2 {
-  background-color: white;
+  background-color: #fdfd96;
   display: table-cell;
   padding: 35px;
   text-align: center;
   line-height: 1cm;
   font-family: "Quicksand", sans-serif;
 }
+.titulo {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
 .logo2 {
   float: left;
   left: 10px;
 }
-footer {
-  background-color: #9dd1e1;
+/*section cards*/
+.card__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info-card {
+  width: 40%;
+  margin-bottom: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 25%;
+  margin: 3rem 0;
+  padding: 2rem;
+  box-shadow: 0 0 1rem #000000;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.card p {
+  max-width: 300px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+}
+/*footer*/
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fdfd96;
+  font-size: 1.1rem;
+  line-height: 1cm;
+  font-family: "Quicksand", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.place1 a {
+  margin: 8px;
+  line-height: 40px;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+  text-decoration: none;
+}
+.derecho {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 1rem 0;
+  background-color: rgb(0, 0, 0);
+}
+/*media responsive*/
+@media screen (max-width: 992px) {
+}
+@media screen (max-width: 768px) {
+}
+@media screen (max-width: 575px) {
 }
